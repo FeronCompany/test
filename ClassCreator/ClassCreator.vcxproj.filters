@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="class">
+      <UniqueIdentifier>{59dbb4e4-6908-443e-9c5b-057523e4f083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{a6a1a46b-b3e0-4ca0-ac6d-f4f30af5fcb7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="Beta.cpp">
+      <Filter>class</Filter>
+    </ClCompile>
+    <ClCompile Include="Catty.cpp">
+      <Filter>class</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Beta.h">
+      <Filter>class</Filter>
+    </ClInclude>
+    <ClInclude Include="Catty.h">
+      <Filter>class</Filter>
+    </ClInclude>
+    <ClInclude Include="Delta.h">
+      <Filter>class</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonFormat.h">
+      <Filter>class</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
